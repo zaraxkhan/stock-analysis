@@ -1,12 +1,12 @@
-#**Stock-Analysis**
+**#Stock-Analysis**
 
 Running analysis on a couple stocks with VBA to determine the percentage of yearly return for each stock from the dataset.
 
-##**Overview**
+**##Overview**
 
 In this project, I will be creating a code in order to loop through the stock dataset in order to determine the yearly return for each stock to draw the conclusion of whether or not the stock should be invested in by our client, Steve, and his parents. Additionally, I will be refactoring the original code built so that this VBA script successfully runs faster than the original. By creating a flexible macro for running multiple stocks, this code can be reused in the future to be able to run on a different set of stocks. The purpose of this code is to be able to read how the stocks performed at a glance with proper formatting and legibility. 
 
-##**Results**
+**##Results**
 
 To make my original code more efficient, I had to properly set arrays for my variables for my code to run through more quickly. Looping my arrays to a ticker Index is what, in my opinion, made the code so efficient. Instead of going through each ticker at a time like my original code had, my refactored code was able to run through all the tickers simultaneously by setting the tickerIndex. 
 
@@ -21,7 +21,7 @@ After refactoring the code, I was able to cut down the time it took to process t
 
 Based on these run-times, the code now runs almost 1 second faster than the original code, making this refactored code much more efficient. 
 
-##**Summary**
+**##Summary**
 
 Now, with a click of a button, Steve is able to run the code to analyze a list of stocks and their returns with the benefit of running for any year. 
 
