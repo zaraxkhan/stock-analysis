@@ -12,11 +12,15 @@ To make my original code more efficient, I had to properly set arrays for my var
 
 ### Run-time for each yearValue
 Below are the run times with my original code
+
 ![green_stocks_2017](https://user-images.githubusercontent.com/105755095/174363576-eae46d4f-1d43-4deb-a144-7ff972993474.png)
+
 ![green_stocks_2018](https://user-images.githubusercontent.com/105755095/174363940-125a7b4a-cb89-4f84-b57f-6fef4df6e3f2.png)
 
 After refactoring the code, I was able to cut down the time it took to process the code by nearly 110%.
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/105755095/174364554-42f7114f-3618-45e6-b06d-899b3a409c92.png)
+
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/105755095/174364905-bc7ec1e4-601c-4963-8ee3-ba426d315a8c.png)
 
 Based on these run-times, the code now runs almost 1 second faster than the original code, making this refactored code much more efficient. 
