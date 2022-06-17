@@ -8,7 +8,7 @@ In this project, I will be creating a code in order to loop through the stock da
 
 ## Results
 
-To make my original code more efficient, I had to properly set arrays for my variables for my code to run through more quickly. Looping my arrays to a ticker Index is what, in my opinion, made the code so efficient. Instead of going through each ticker at a time like my original code had, my refactored code was able to run through all the tickers simultaneously by setting the tickerIndex. 
+To make my original code more efficient, I had to properly set arrays for my variables for my code to run through more quickly. Looping my arrays to a ticker Index is what, in my opinion, made the code so efficient. Instead of going through each ticker at a time like my original code had, my refactored code was able to run through all the tickers simultaneously by setting the tickerIndex. From the results that we get just with the click of a button, it can be seen with the formatting of the Return cells that the stocks for the year of 2017 did much better than in 2018. The highlighting of the return cells in red and green make it easy for the end user to understand the results in just a glance. 
 
 ### Run-time for each yearValue
 Below are the run times with my original code
